@@ -1,6 +1,6 @@
 Name:           waydroid
-Version:        1.2.0
-Release:        5
+Version:        1.3.3
+Release:        6
 Summary:        Container-based approach to boot a full Android system
 License:        GPLv3
 URL:            https://waydro.id/
@@ -39,7 +39,7 @@ Requires: %{name} = %{version}
 Support for enabling Waydroid session as a systemd service and use of Waydroid through direct rendering on Sailfish composer.
 
 Custom:
-  Repo: https://github.com/sailfishos-open/waydroid
+  Repo: https://github.com/Exynos7880-Linux/waydroid-app
 Icon: https://raw.githubusercontent.com/waydroid/waydroid/bullseye/data/AppIcon.png
 Categories:
   - System
