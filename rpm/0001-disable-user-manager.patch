@@ -1,12 +1,14 @@
 diff --git a/upstream/tools/services/user_manager.py b/upstream/tools/services/user_manager.py
-index 5e61f2b..9fd1cb 100644
+index 1171e85..d700276 100644
 --- a/upstream/tools/services/user_manager.py
 +++ b/upstream/tools/services/user_manager.py
-@@ -96,7 +96,7 @@ global stopping
+@@ -96,7 +96,7 @@ def start(args, unlocked_cb=None):
+     global stopping
      stopping = False
      args.user_manager = threading.Thread(target=service_thread)
 -    args.user_manager.start()
 +    #args.user_manager.start()
  
  def stop(args):
-    global stopping
+     global stopping
+
